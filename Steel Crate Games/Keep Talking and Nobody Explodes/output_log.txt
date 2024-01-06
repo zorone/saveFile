@@ -7,7 +7,7 @@ Direct3D:
     VRAM:     2033 MB
     Driver:   31.0.21905.1001
 Begin MonoManager ReloadAssembly
-- Completed reload, in  4.034 seconds
+- Completed reload, in  0.090 seconds
 OnLevelWasLoaded was found on LeanTween
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
@@ -24,7 +24,7 @@ XR: OpenVR Error! OpenVR failed initialization with error code VRInitError_Init_
  
 (Filename:  Line: 1590)
 
-UnloadTime: 1.470400 ms
+UnloadTime: 0.992700 ms
 Resolution requested: 1920x1080
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -75,7 +75,7 @@ I2Loc: Setting language to English (en)
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2457.
-Total: 11.416300 ms (FindLiveObjects: 0.400500 ms CreateObjectMapping: 0.139700 ms MarkObjects: 10.859700 ms  DeleteObjects: 0.015900 ms)
+Total: 4.632500 ms (FindLiveObjects: 0.449200 ms CreateObjectMapping: 0.124000 ms MarkObjects: 4.037300 ms  DeleteObjects: 0.021400 ms)
 
 Initializing platform...
 [PlayerSettingsManager] Saving player settings.
@@ -417,16 +417,17 @@ InControl (version 1.6.15 build 9080)
 
 [KTInputManager] Active SecondScreen device: None () [Supported] [Platform: WINDOWS 10 PRO FOR WORKSTATIONS 64BIT BUILD 22631]
 
-External log config file (C:\Users\ASUS\AppData\LocalLow\logConfig.xml) does not exist. Using embedded config.
-Saving external log config file (logConfig.xml) for user editing.
+Configuring using external log config file: C:\Users\ASUS\AppData\LocalLow\logConfig.xml.
+[Logging] Logging successfully configured from external file.
+
 [UserManager] Initialized UserManager
 
 [ServicesSteam] Steamworks.NET is initialized. Now logged in as Noob!
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
 
-Unloading 441 unused Assets to reduce memory usage. Loaded Objects now: 7212.
-Total: 16.140300 ms (FindLiveObjects: 0.913100 ms CreateObjectMapping: 0.446100 ms MarkObjects: 14.468200 ms  DeleteObjects: 0.312400 ms)
+Unloading 440 unused Assets to reduce memory usage. Loaded Objects now: 7212.
+Total: 20.231400 ms (FindLiveObjects: 0.686300 ms CreateObjectMapping: 0.253800 ms MarkObjects: 18.973200 ms  DeleteObjects: 0.317400 ms)
 
 No Playlist Controllers exist in the Scene. Music will not play.
 [SecondScreenManager] VRMode=false, disabling.
@@ -440,11 +441,89 @@ No Playlist Controllers exist in the Scene. Music will not play.
 [LoadingManager] Loading: mainScene
 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-[LoadingManager] Finished loading: 0.92 sec(s)
+[LoadingManager] Finished loading: 0.53 sec(s)
 
 [LoadingManager] Could not find any connected and supported InControl devices. Prompting user to connect, if the current platform has a native prompt...
 
-UnloadTime: 1.747500 ms
+[LoadingManager] Received mouse input to continue.
+
+[KTInputManager] Requested setting control type to: Mouse
+
+[KTInputManager] Control type supported. Settting control type to: Mouse
+
+[LoadingManager] Engagement complete. Loading main scene...
+
+[FileUtilityHelper] Attempting to load "C:/Users/ASUS/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\demoSettings.xml"...
+
+[FileUtilityHelper] Successfully loaded "C:/Users/ASUS/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\demoSettings.xml".
+
+[DemoManager] Demo settings: [Mode: Off], [DisableAlarmClockSound: False], [SkipVerificationFlow: False], [ForgetLastGameSettings: False]
+
+[FileUtilityHelper] Attempting to load "C:/Users/ASUS/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\tournamentSettings.xml"...
+
+[FileUtilityHelper] Failed to load "C:/Users/ASUS/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\tournamentSettings.xml": Could not find file "C:\Users\ASUS\AppData\LocalLow\Steel Crate Games\Keep Talking and Nobody Explodes\tournamentSettings.xml".
+
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[TournamentManager] Failed to load tournament settings from user path, looking for tournamentSettings.xml next to executable.
+
+[FileUtilityHelper] Attempting to load "tournamentSettings.xml"...
+
+[FileUtilityHelper] Failed to load "tournamentSettings.xml": Could not find file "C:\Users\ASUS\AppData\LocalLow\tournamentSettings.xml".
+
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[TournamentManager] Failed to load tournament settings from executable path. Creating default tournament settings.
+
+[TournamentManager] Tournament settings: Name: Test Tournament
+Teams: 2
+Missions: firsttime,somethingoldsomethingnew,onestepup
+TieBreaker: firsttime
+Turn Order: Snake
+SeedStyle: GenerateSame 
+PacingEvents: ForceOneMinuteLeftOnly
+
+[FileUtilityHelper] Attempting to load "C:/Users/ASUS/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\modSettings.xml"...
+
+[FileUtilityHelper] Successfully loaded "C:/Users/ASUS/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\modSettings.xml".
+
+[ModSettingsManager] Assets.Scripts.Settings.ModSettings
+
+[StatsManager] Loading stats from stats.xml...
+
+[FileUtilityHelper] Attempting to load "C:/Users/ASUS/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\stats.xml"...
+
+[FileUtilityHelper] Successfully loaded "C:/Users/ASUS/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\stats.xml".
+
+[StatsManager] Recorded Stats:
+
+[StatsManager] totalstrikes: IntValue: 3
+
+[StatsManager] totalmodulesdisarmed: IntValue: 6
+
+[StatsManager] moduletypeprogress: IntValue: 4
+
+[StatsManager] thebasicsprogress: IntValue: 1
+
+[StatsManager] moderateprogress: IntValue: 0
+
+[StatsManager] needyprogress: IntValue: 0
+
+[StatsManager] challengingprogress: IntValue: 0
+
+[StatsManager] extremeprogress: IntValue: 0
+
+[StatsManager] exoticprogress: IntValue: 0
+
+[StatsManager] totalbombsdefused: IntValue: 2
+
+[StatsManager] Recorded Achievements:
+
+[StatsManager] firstbomb: unlocked at 12/28/2023 23:35:45
+
+UnloadTime: 2.866100 ms
 [MissionManager] MissionManager initialized. 34 missions available.
 
 [RecordManager] Loading records from records.xml...
@@ -477,72 +556,129 @@ UnloadTime: 1.747500 ms
 
 [SceneManager] Creating game states...
 
-[PrefabOverride] Prefab override: InputBased: True, CurrentControlType: Gaze, Path: "PC/Prefabs/ControlsPoster/ControlsPoster_gaze"
+[PrefabOverride] Prefab override: InputBased: True, CurrentControlType: Mouse, Path: "PC/Prefabs/ControlsPoster/ControlsPoster_mouse"
 
-[PrefabOverride] Prefab override failed because there is no prefab at the path specified for this config: InputBased: InputBased: True, CurrentControlType: Gaze, Path: PC/Prefabs/ControlsPoster/ControlsPoster_gaze
+[MissionTableOfContentsPageManager] Showing ToC 0 page 0.
 
- 
-(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at MissionTableOfContentsPageManager.SetupTableOfContentsMetaData () [0x00000] in <filename unknown>:0 
-  at MissionTableOfContentsPageManager.Init (Boolean force) [0x00000] in <filename unknown>:0 
-  at SetupRoom.Awake () [0x00000] in <filename unknown>:0 
-UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
-UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
-UnityEngine.Object:Instantiate(GameObject, Vector3, Quaternion)
-SetupState:Awake()
-UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
-UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
-UnityEngine.Object:Instantiate(GameObject, Vector3, Quaternion)
-SceneManager:CreateGameStates()
-<Load>c__Iterator0:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-UnityEngine.MonoBehaviour:StartCoroutine_Auto_Internal(IEnumerator)
-UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
-SceneManager:Awake()
- 
-(Filename:  Line: -1)
-
-[MaterialOverride] Material override: InputBased: True, CurrentControlType: Gaze, Path: "PC/Materials/controls_poster_gaze"
-
-NullReferenceException: Object reference not set to an instance of an object
-  at SetupState.get_ShouldAllowFreeplayDevice () [0x00000] in <filename unknown>:0 
-  at SetupState.ConfigureForNormalPlay () [0x00000] in <filename unknown>:0 
-  at SetupState.Awake () [0x00000] in <filename unknown>:0 
-UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
-UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
-UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
-UnityEngine.Object:Instantiate(GameObject, Vector3, Quaternion)
-SceneManager:CreateGameStates()
-<Load>c__Iterator0:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-UnityEngine.MonoBehaviour:StartCoroutine_Auto_Internal(IEnumerator)
-UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
-SceneManager:Awake()
- 
-(Filename:  Line: -1)
+[MaterialOverride] Material override: InputBased: True, CurrentControlType: Mouse, Path: "PC/Materials/controls_poster_mouse"
 
 [LeaderboardBulkSubmissionWorker] Submitting all unreported leaderboard scores.
 
 [LeaderboardBulkSubmissionWorker] Finished submitting all unreported leaderboard scores.
 
-Exception: InputManager is not initialized. Call InputManager.Setup() first.
-  at InControl.InputManager.AssertIsSetup () [0x00000] in <filename unknown>:0 
-  at InControl.InputManager.UpdateInternal () [0x00000] in <filename unknown>:0 
-  at InControl.InputManager.OnLevelWasLoaded () [0x00000] in <filename unknown>:0 
-  at InControl.InControlManager.OnSceneWasLoaded (Scene scene, LoadSceneMode loadSceneMode) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.LoadSceneMode>:invoke_void__this___Scene_LoadSceneMode (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
-  at UnityEngine.SceneManagement.SceneManager.Internal_SceneLoaded (Scene scene, LoadSceneMode mode) [0x00000] in <filename unknown>:0 
+
+Unloading 211 unused Assets to reduce memory usage. Loaded Objects now: 37426.
+Total: 102.826600 ms (FindLiveObjects: 3.627700 ms CreateObjectMapping: 3.144500 ms MarkObjects: 93.965900 ms  DeleteObjects: 2.088500 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+[ServicesSteam] Received user stats from Steam for game id 341800
+
+[ServicesSteam] Steam achievement id firstbomb was unlocked locally but might not be unlocked remotely. Recording unlock again just to make sure Steam is synced up...
+
+[ServicesSteam] Failed to submit achievement unlock to Steam.
+
  
-(Filename:  Line: -1)
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[StatsManager] Achievement 'firstbomb' unlocked! (NOT first unlock)
+
+[ServicesSteam] Replacing stat value thebasicsprogress with larger local value 1
+
+[ServicesSteam] Successfully submitted stat id thebasicsprogress change to int value 1 to Steam. This has not yet been synced to their server, though.
+
+[StatsManager] Stat 'thebasicsprogress' changed from 1 to 1
+
+[ServicesSteam] Replacing stat value moderateprogress with larger local value 0
+
+[ServicesSteam] Successfully submitted stat id moderateprogress change to int value 0 to Steam. This has not yet been synced to their server, though.
+
+[StatsManager] Stat 'moderateprogress' changed from 0 to 0
+
+[ServicesSteam] Replacing stat value needyprogress with larger local value 0
+
+[ServicesSteam] Successfully submitted stat id needyprogress change to int value 0 to Steam. This has not yet been synced to their server, though.
+
+[StatsManager] Stat 'needyprogress' changed from 0 to 0
+
+[ServicesSteam] Replacing stat value challengingprogress with larger local value 0
+
+[ServicesSteam] Successfully submitted stat id challengingprogress change to int value 0 to Steam. This has not yet been synced to their server, though.
+
+[StatsManager] Stat 'challengingprogress' changed from 0 to 0
+
+[ServicesSteam] Replacing stat value extremeprogress with larger local value 0
+
+[ServicesSteam] Successfully submitted stat id extremeprogress change to int value 0 to Steam. This has not yet been synced to their server, though.
+
+[StatsManager] Stat 'extremeprogress' changed from 0 to 0
+
+[ServicesSteam] Replacing stat value exoticprogress with larger local value 0
+
+[ServicesSteam] Successfully submitted stat id exoticprogress change to int value 0 to Steam. This has not yet been synced to their server, though.
+
+[StatsManager] Stat 'exoticprogress' changed from 0 to 0
+
+[ServicesSteam] Replacing stat value moduletypeprogress with larger local value 4
+
+[ServicesSteam] Successfully submitted stat id moduletypeprogress change to int value 4 to Steam. This has not yet been synced to their server, though.
+
+[StatsManager] Stat 'moduletypeprogress' changed from 4 to 4
+
+[ServicesSteam] Replacing stat value totalstrikes with larger local value 3
+
+[ServicesSteam] Successfully submitted stat id totalstrikes change to int value 3 to Steam. This has not yet been synced to their server, though.
+
+[StatsManager] Stat 'totalstrikes' changed from 3 to 3
+
+[ServicesSteam] Replacing stat value totalmodulesdisarmed with larger local value 6
+
+[ServicesSteam] Successfully submitted stat id totalmodulesdisarmed change to int value 6 to Steam. This has not yet been synced to their server, though.
+
+[StatsManager] Stat 'totalmodulesdisarmed' changed from 6 to 6
+
+[ServicesSteam] Replacing stat value totalbombsexploded with larger local value 0
+
+[ServicesSteam] Successfully submitted stat id totalbombsexploded change to int value 0 to Steam. This has not yet been synced to their server, though.
+
+[StatsManager] Stat 'totalbombsexploded' changed from 0 to 0
+
+[ServicesSteam] Replacing stat value totalbombsdefused with larger local value 2
+
+[ServicesSteam] Successfully submitted stat id totalbombsdefused change to int value 2 to Steam. This has not yet been synced to their server, though.
+
+[StatsManager] Stat 'totalbombsdefused' changed from 2 to 2
+
+[ServicesSteam] Finished merging existing stats and achievements
+
+[ServicesSteam] Sent request to store stats to Steam.
+
+[ServicesSteam] Sent request to store stats to Steam.
+
+[FileUtilityHelper] Attempting to save "C:/Users/ASUS/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\stats.xml"...
+
+[FileUtilityHelper] Successfully saved "C:/Users/ASUS/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\stats.xml".
+
+[SceneManager] Fading in...
+
+[State] Enter SetupState
+
+[MissionTableOfContentsPageManager] Showing ToC 0 page 0.
 
 
-Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 28726.
-Total: 62.171400 ms (FindLiveObjects: 2.961500 ms CreateObjectMapping: 2.727300 ms MarkObjects: 55.593400 ms  DeleteObjects: 0.888000 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 37486.
+Total: 98.682400 ms (FindLiveObjects: 2.943900 ms CreateObjectMapping: 2.647400 ms MarkObjects: 92.961300 ms  DeleteObjects: 0.129400 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+[PrefabOverride] Prefab override: InputBased: True, CurrentControlType: Mouse, Path: "PC/Prefabs/DossierMenu/DossierControls_Mouse"
+
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 37511.
+Total: 103.803300 ms (FindLiveObjects: 4.408000 ms CreateObjectMapping: 2.496600 ms MarkObjects: 96.744500 ms  DeleteObjects: 0.154200 ms)
+
+[CommonMenuUtil] ReturnToLauncher
+
+[SceneManager] Fading out and exiting.
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 317c -> priority: 1 
-  Thread -> id: 31f0 -> priority: 1 
+  Thread -> id: 2a9c -> priority: 1 
+  Thread -> id: db4 -> priority: 1 

@@ -1,3 +1,46 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a184ded53baab2c2b91dfff439655d2cebe5beb2193e2a4e853d0c1cc34b11c5
-size 294
+net session >nul 2>&1
+
+if ($lastExitCode -ne 0) {
+    start-process powershell -Verb RunAs
+}
+
+cd %USERPROFILE%\AppData\LocalLow
+
+git init
+git lfs install
+git remote add origin https://github.com/zorone/saveFile.git
+git reset origin/master
+git checkout -t origin/master
+git lfs pull
+# SIG # Begin signature block
+# MIIFgQYJKoZIhvcNAQcCoIIFcjCCBW4CAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
+# gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
+# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUVreZvaaZxhMcqnK6lOsE3TZH
+# pvmgggMaMIIDFjCCAf6gAwIBAgIQWohDqsiQpJBIksc24kAJrTANBgkqhkiG9w0B
+# AQsFADAcMQswCQYDVQQGEwJUSDENMAsGA1UEAwwEcm96bjAeFw0yNDAxMDYwNTU2
+# MDZaFw0yNTAxMDYwNjE2MDZaMBwxCzAJBgNVBAYTAlRIMQ0wCwYDVQQDDARyb3pu
+# MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA+gOH+7OYOO+Fio6P8GzB
+# yL72qfbgxLfWXTAZZuc02HmVbxm1rzW+cAhBbBXKVhSHwKJl3WgZu8FrhtsWq2gj
+# +pOLzY2h+IRtmlPOBXCBlOzvNOKl+G3mniHFNp92Tp8gp6xnFY+lUGdRe+tHQx3e
+# j1bpmIIoF+SWvbx7dY87kDFRaPg9aQC2U14XvKyTHwlfFk1ckTrR2ao8MslXbvtt
+# CR0hANDSAAo3TzcnX0UKcrvs88FglWuMoDTjnqM+Da2TMVfxjjRyjIOU3z8XLxF9
+# IqmTzc6Oc6x0H3iCK9U8wR3mQzP73rXaxCIF7XGfBjRdS2yIwkuAxqRQydUYrXdq
+# bQIDAQABo1QwUjAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0lBAwwCgYIKwYBBQUHAwMw
+# DAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUXYfyXF4bzun4jzvNCkJM99lef0IwDQYJ
+# KoZIhvcNAQELBQADggEBAA54A8Yxk1edg9pdQMDfZzHOo/UHptAI5GWIlRMQFuO5
+# mtorD6DGG2KSfaqSFjJQNlhByjScLX48/x8oZgsHm3YEX+KEJedpo7g/eLvkqGzh
+# EvFi67b10ujFrs4xHS/SLrp1gnXchpv3YoVOcXDajZoE9QbzUglhnoWlr8Kfu/Q9
+# 77D/iDNCNeYA3QXKlhJ6pgMDQhhXswF9Cb+V+4ln1i+M0UWaVXVI3LfsPHPcfMfP
+# MzhnPPGZlcbQHJbOzOkGBMN0I8JTdX3zV+CvHmsLNL9FiQ9QUzR3tuOZGcL0hDEC
+# nGtGGDftrjiwnPisquf1icphymVt+RRT7KYu4TSebBkxggHRMIIBzQIBATAwMBwx
+# CzAJBgNVBAYTAlRIMQ0wCwYDVQQDDARyb3puAhBaiEOqyJCkkEiSxzbiQAmtMAkG
+# BSsOAwIaBQCgeDAYBgorBgEEAYI3AgEMMQowCKACgAChAoAAMBkGCSqGSIb3DQEJ
+# AzEMBgorBgEEAYI3AgEEMBwGCisGAQQBgjcCAQsxDjAMBgorBgEEAYI3AgEVMCMG
+# CSqGSIb3DQEJBDEWBBQu8tTAIOdy5p6f+dDfIXuNEVEkPjANBgkqhkiG9w0BAQEF
+# AASCAQDoXneWF4DP44dXJS8t6CWqlUgrEtTWFgXtsNGCrxGZj9gG2kXpu3hCTxB4
+# 0Ii5RAxXQdGlsDuzGGIMyTlJyIUAGI5pFEpf7dozjWYuxp/97RJHmUyjPX0fIc/1
+# lKows1fzW3JNJYnafpnG2hK1kg3cFBvjO4Zv0ZvgTjk+mz1cpoSRzwaU8/HT7gmN
+# VY7GKUg5azTfLKKvTB16br0N+tR//+RNDLSK22rJq+FL+lOMb4eFWz641AO3vG9S
+# 3vK2ItxZ41xvYJWW2Hn1mhXpsPv357CLt2kpBAsmdFcMSEhPGbQgNAa5sZkUXemY
+# Kof3M4gwTcz1UEcuyO6feUcZtIud
+# SIG # End signature block

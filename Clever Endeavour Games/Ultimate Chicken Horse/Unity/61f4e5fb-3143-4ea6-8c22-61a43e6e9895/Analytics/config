@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cd744c82ab836aef8791ebac4782f30590fad7e6cb70f54a0c643747403b0065
-size 347
+{"analytics":{"enabled":true,"events":{"custom_event":{"max_event_per_hour":5000}}},"connect":{"limit_user_tracking":false,"player_opted_out":false,"enabled":true},"performance":{"enabled":true},"dynamic":{"coreBusinessMetrics":{"enabled":true,"timeToWaitForUserInfoS":60},"analytics":{"shouldCollectAutomation":true,"timeToWaitForUserInfoS":60}}}

@@ -1,3 +1,786 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e3ea3a13e4d6bb226ff0bfa79d59e71120526f5eb615f9ce85ff46c497a7a579
-size 345579
+Mono path[0] = 'C:/games/Ultimate.Chicken.Horse.v1.9.03/UltimateChickenHorse_Data/Managed'
+Mono config path = 'C:/games/Ultimate.Chicken.Horse.v1.9.03/MonoBleedingEdge/etc'
+Initialize engine version: 2020.3.28f1 (f5400f52e03f)
+[Subsystems] Discovering subsystems at path C:/games/Ultimate.Chicken.Horse.v1.9.03/UltimateChickenHorse_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   
+    VRAM:     3977 MB
+    Driver:   31.0.15.4633
+Begin MonoManager ReloadAssembly
+- Completed reload, in  3.821 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 7.817300 ms
+WwiseUnity: Wwise(R) SDK Version 2021.1.7 Build 7796.
+WwiseUnity: Setting Plugin DLL path to: C:/games/Ultimate.Chicken.Horse.v1.9.03/UltimateChickenHorse_Data\Plugins\x86_64
+WwiseUnity: Sound engine initialized successfully.
+[Net] St:Callbacks setup
+[Net] Steam MatchMaker Instantiated -82
+Error: Could not build item filter because Placeable Metadata List has not been instantiated yet.
+Waiting to initialize: 0 then loading main menu
+Worker Thread Manager initialized.
+[6/1/2567 12:43:21] [UnetRelayTransport] Transport initialized
+Scene change: Init
+[Net] Attempting to find IP
+[Net] Contacting ipify...
+CheckOnStart: 0. Args being used: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Done waiting for initialization, loading main menu.
+The referenced script on this Behaviour (Game Object 'TwitchText') is missing!
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.801000 ms
+Fallback handler could not load library C:/games/Ultimate.Chicken.Horse.v1.9.03/UltimateChickenHorse_Data/Mono/XInputInterface32
+Fallback handler could not load library C:/games/Ultimate.Chicken.Horse.v1.9.03/UltimateChickenHorse_Data/Mono/XInputInterface32.dll
+Fallback handler could not load library C:/games/Ultimate.Chicken.Horse.v1.9.03/UltimateChickenHorse_Data/Mono/XInputInterface32
+Fallback handler could not load library C:/games/Ultimate.Chicken.Horse.v1.9.03/UltimateChickenHorse_Data/Mono/libXInputInterface32
+Fallback handler could not load library C:/games/Ultimate.Chicken.Horse.v1.9.03/UltimateChickenHorse_Data/Mono/libXInputInterface32.dll
+Fallback handler could not load library C:/games/Ultimate.Chicken.Horse.v1.9.03/UltimateChickenHorse_Data/Mono/libXInputInterface32
+1678202681870 - 1702308030193
+[I2Loc] Using Saved (PlayerPref) data in 'I2Source_I2Languages1mQZWbnEkAvRX0_Yum3kR1ej93Py89w0g5iRfGZ9zvXc'
+GSManager Awake. Instance: 
+Creating Braincloud Wrapper instance
+Scene change: MainMenu, destroying lobby manager
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 67469.
+Total: 35.000300 ms (FindLiveObjects: 1.952900 ms CreateObjectMapping: 2.552700 ms MarkObjects: 29.994600 ms  DeleteObjects: 0.499100 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 67469.
+Total: 32.273100 ms (FindLiveObjects: 2.186100 ms CreateObjectMapping: 2.100900 ms MarkObjects: 27.904900 ms  DeleteObjects: 0.080600 ms)
+
+Ip set to:177.143.183.6
+Finding best hosting region...
+Trying to start Discord
+Uploading Crash Report
+ResultException: InternalError
+  at Discord.Discord..ctor (System.Int64 clientId, System.UInt64 flags) [0x00327] in <84abedda1b3d46e5823223089bd98619>:0 
+  at DiscordListener.Start () [0x0002b] in <be7570b1175340018f1160d0db7009fe>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+DiscordListener:Start()
+
+Couldn't start Discord API. Is Discord running?
+Loading game from: C:/Users/ASUS/AppData/LocalLow/Clever Endeavour Games/Ultimate Chicken Horse/saveData.uch
+Save file loading finished. Checking achievements...
+Ultimate Chicken Horse - version 1.10.05
+Date UTC: 6/1/2567 5:43:23
+Warning! Page PlayOnlinePage has no page number text element!
+Warning! Page TabletInterface has no page number text element!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object 'TwitchText') is missing!
+The referenced script on this Behaviour (Game Object 'TwitchText') is missing!
+<color=cyan>IP Addresses: Internal IP (172.28.48.1) External IP (223.204.178.95)</color>
+[Net] Finding IPs took: 1.800141 s.
+Curl error 7: Failed to connect to config.uca.cloud.unity3d.com port 443: Connection refused
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"status_message\":\"Processing exception (message): Token does not match user. May have been error creating account. Error Context: {\\\"response\\\":{\\\"error\\\":{\\\"errorcode\\\":3,\\\"errordesc\\\":\\\"Invalid parameter\\\"}}} Extra: 1*0*0*0*7*7*7*7*0*0*0*0*A*A*3*0*0*0*1*0*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*\",\"reason_code\":40307,\"status\":403}"}
+Curl error 7: Failed to connect to perf-events.cloud.unity3d.com port 443: Connection refused
+Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443: Connection refused
+US avg: 309
+EU avg: 200
+AP avg: 45
+Setting default hosting region to: Asia
+Loading game from: C:/Users/ASUS/AppData/LocalLow/Clever Endeavour Games/Ultimate Chicken Horse/saveData.uch
+Save file loading finished. Checking achievements...
+Event GameStart: 1
+Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443: Connection refused
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"status_message\":\"Processing exception (message): Token does not match user. May have been error creating account. Error Context: {\\\"response\\\":{\\\"error\\\":{\\\"errorcode\\\":3,\\\"errordesc\\\":\\\"Invalid parameter\\\"}}} Extra: 1*0*0*0*7*7*7*7*0*0*0*0*A*A*3*0*0*0*1*0*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*\",\"reason_code\":40307,\"status\":403}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"status_message\":\"Processing exception (message): Token does not match user. May have been error creating account. Error Context: {\\\"response\\\":{\\\"error\\\":{\\\"errorcode\\\":3,\\\"errordesc\\\":\\\"Invalid parameter\\\"}}} Extra: 1*0*0*0*7*7*7*7*0*0*0*0*A*A*3*0*0*0*1*0*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*7*\",\"reason_code\":40307,\"status\":403}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+ARG 0: C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe
+Backend: attempting to connect with Steam
+Couldn't connect backend to Steam: {"error":"{\"reason_code\":90201,\"status\":900,\"status_message\":\"Client has been disabled due to identical repeat Authentication calls that are throwing errors. Authenticating with the same credentials is disabled for 30 seconds\",\"severity\":\"ERROR\"}"}
+<color=cyan>Leaving Match: Network Address (177.143.183.6), Network Port (17778), Relay Region (America)</color>
+Event GameQuit: 2
+<color=cyan>Leaving Match: Network Address (177.143.183.6), Network Port (17778), Relay Region (America)</color>
+<color=cyan>Leaving Match: Network Address (177.143.183.6), Network Port (17778), Relay Region (America)</color>
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 41a8 -> priority: 1 
+  Thread -> id: 4c2c -> priority: 1 
+  Thread -> id: 4340 -> priority: 1 
+  Thread -> id: 1ae0 -> priority: 1 
+Curl error 42: Callback aborted
+LobbyManagerManager shutting down...
+[Net] Shutting down Backend Manager
+Event GameQuit: 3
+SaveSystemProtector shutting down...
+Curl error 42: Callback aborted

@@ -10,7 +10,7 @@ Direct3D:
     VRAM:     9189 MB
     Driver:   31.0.21905.1001
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.165 seconds
+- Completed reload, in  0.195 seconds
 D3D11 device created for Microsoft Media Foundation video decoding.
 Loading mods...
 [Steam] Connected to Steam with AppID 1599600
@@ -24,7 +24,7 @@ XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
 Odin Serializer ArchitectureInfo initialization with defaults (all unaligned read/writes disabled).
-UnloadTime: 1.732700 ms
+UnloadTime: 1.689800 ms
 Odin Serializer detected whitelisted runtime platform WindowsPlayer and memory read test succeeded; enabling all unaligned memory read/writes.
 Did not find an appid, defaulting to 1599600
 Initialising PlateUp! 1.1.8 (BBFE)
@@ -39,7 +39,5 @@ Device info:
     "capabilities": ""
 }
 Controller assigned as: Keyboard
-Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Profile\1703777178.plateupsave
-Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Profile\1703777178.plateupsave
 Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Profile\1703777178.plateupsave
 Quitting: User request

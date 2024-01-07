@@ -1,3 +1,3 @@
-(s)|{"appid":"26df9959-f20a-462f-8cdb-d23117ee3508","userid":"a6416055fca11cb42b28f05c1a127a8a","sessionid":4237708491381315048,"platform":"WindowsPlayer","platformid":2,"sdk_ver":"u2020.3.43f1","sdk_rev":"75bff06b76bf","session_count":59,"localprojectid":"4df4f3c90227b9c449dd7263157bb502","build_guid":"41381313bb02f78bfbe7452a93944a8d","deviceid":"6c5065f645b683e3c2045e5f81c29f4db43a9556","identity_token":"a6416055fca11cb42b28f05c1a127a8a"}
-(g)|2
-{"type":"analytics.appRunning.v1","msg":{"duration":5401,"local_time_offset":-25200000,"ts":1704210397243,"t_since_start":5427007275}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:56a56083adf57396be9cba4b93d46942153ba7edc47228686d7dca185e622ba6
+size 587

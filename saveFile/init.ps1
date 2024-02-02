@@ -4,6 +4,8 @@ if ($lastExitCode -ne 0) {
     start-process powershell -Verb RunAs
 }
 
+# TODO: initialize global variable for necessary files: x360ce
+
 cd %USERPROFILE%\AppData\LocalLow
 
 git init

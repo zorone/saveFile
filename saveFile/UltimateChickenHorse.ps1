@@ -23,7 +23,7 @@ if ($lastExitCode -eq 1) {
     git push --all
 }
 
-start-process -filepath "C:\Users\ASUS\Downloads\x360ce_4.17.15\x360ce.exe" -WindowStyle Minimized
+start-process -filepath "$env:X360CE\x360ce.exe" -WindowStyle Minimized
 start-process -filepath "C:\games\Ultimate.Chicken.Horse.v1.9.03\UltimateChickenHorse.exe" -WindowStyle Maximized -Wait
 
 git pull

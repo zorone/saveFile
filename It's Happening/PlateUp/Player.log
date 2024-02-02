@@ -1,3 +1,77 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:06121bf04d6ec1c145dd79232690f080abf093b58746cdbf6e30b981e4987e64
-size 11825
+Mono path[0] = 'C:/games/PlateUp.v1.1.8/PlateUp_Data/Managed'
+Mono config path = 'C:/games/PlateUp.v1.1.8/MonoBleedingEdge/etc'
+Initialize engine version: 2020.3.43f1 (75bff06b76bf)
+[Subsystems] Discovering subsystems at path C:/games/PlateUp.v1.1.8/PlateUp_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Vega 3 Graphics (ID=0x15d8)
+    Vendor:   
+    VRAM:     9189 MB
+    Driver:   31.0.21905.1001
+Begin MonoManager ReloadAssembly
+- Completed reload, in  7.523 seconds
+D3D11 device created for Microsoft Media Foundation video decoding.
+Loading mods...
+[Steam] Connected to Steam with AppID 1599600
+Found 0 workshop mods
+Searching for mods in C:\games\PlateUp.v1.1.8\Mods
+Loaded 0 mods...
+<RI> Initializing input.
+New input system (experimental) initialized
+Using XInput
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+Odin Serializer ArchitectureInfo initialization with defaults (all unaligned read/writes disabled).
+UnloadTime: 9.827500 ms
+Odin Serializer detected whitelisted runtime platform WindowsPlayer and memory read test succeeded; enabling all unaligned memory read/writes.
+Did not find an appid, defaulting to 1599600
+Initialising PlateUp! 1.1.8 (BBFE)
+Device info:
+    {
+    "interface": "RawInput",
+    "type": "Keyboard",
+    "product": "",
+    "serial": "",
+    "version": "",
+    "manufacturer": "",
+    "capabilities": ""
+}
+Controller assigned as: Keyboard
+Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Profile\1706898997.plateupsave
+Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Profile\1706898997.plateupsave
+Ignoring invalid [UpdateAfter] attribute on Kitchen.CompletingResearchStartsFire targeting Kitchen.UpdateTakesDuration.
+This attribute can only order systems that are members of the same ComponentSystemGroup instance.
+Make sure that both systems are in the same system group with [UpdateInGroup(typeof(Unity.Entities.SimulationSystemGroup)],
+or by manually adding both systems to the same group's update list.
+Ignoring invalid [UpdateAfter(Kitchen.TableUpdatesGroup)] attribute on Kitchen.CreateSurroundingAppliances because OrderFirst/OrderLast has higher precedence.
+Injecting 0 mods...
+[Kitchen.Transports.SteamLobbyTransport] Leaving lobby 0
+[Kitchen.Transports.SteamLobbyTransport] Creating lobby 2
+[Steam] Created lobby 109775242396931122
+[Kitchen.Transports.SteamLobbyTransport] Created lobby 2
+Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1705419025.plateupsave
+Resetting identifier 1394683446
+Failed to load memory backup, loading from disc
+Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\1\1706794627.plateupsave
+Failed to load memory backup, loading from disc
+Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1706847938.plateupsave
+Failed to load memory backup, loading from disc
+Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\3\1706900782.plateupsave
+Failed to load memory backup, loading from disc
+Failed to load memory backup, loading from disc
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1704896487.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1706900787.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1706900538.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1706899291.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1706898867.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1706897447.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1706847941.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1706846625.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1706845989.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1706845940.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1706845250.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1706845232.plateupsave
+Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Progress\1706903992.plateupsave
+Quitting: User request

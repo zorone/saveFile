@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ee6cf26ecb2654dc5cb8fd0cb3769c0cc7bf8d826c3c8e3b77640ffcd638c420
-size 988
+(s)|{"appid":"61f4e5fb-3143-4ea6-8c22-61a43e6e9895","userid":"20f269b2584e58c45a3e0f80ec878b54","sessionid":9218178127737922258,"platform":"WindowsPlayer","platformid":2,"sdk_ver":"u2020.3.28f1","sdk_rev":"f5400f52e03f","session_count":12,"localprojectid":"903b22e6852017342b07d28d926e6243","build_guid":"3b2114ede5f77ad4d9d4362422c9cc68","deviceid":"6c5065f645b683e3c2045e5f81c29f4db43a9556","identity_token":"20f269b2584e58c45a3e0f80ec878b54"}
+(g)|2
+{"type":"analytics.custom.v1","msg":{"custom_params":{"Language":"English","version":"1.10.05"},"ts":1704519808334,"t_since_start":11999854,"name":"GameStart"}}
+{"type":"analytics.custom.v1","msg":{"custom_params":{"Runtime":7.92182,"version":"1.10.05"},"ts":1704519811760,"t_since_start":15426593,"name":"GameQuit"}}
+{"type":"analytics.appRunning.v1","msg":{"duration":10,"local_time_offset":-25200000,"ts":1704519811881,"t_since_start":15547237}}
+(1){"type":"analytics.appStop.v1","msg":{"ts":1704519811881,"t_since_start":15547771}}

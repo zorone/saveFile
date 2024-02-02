@@ -1,3 +1,3 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:adc46e401c3144dcc3a8d15fe61451cf89778c8c2d7284f1e875637452522fc3
-size 581
+(s)|{"appid":"26df9959-f20a-462f-8cdb-d23117ee3508","userid":"a6416055fca11cb42b28f05c1a127a8a","sessionid":6146471689295270110,"platform":"WindowsPlayer","platformid":2,"sdk_ver":"u2020.3.43f1","sdk_rev":"75bff06b76bf","session_count":71,"localprojectid":"4df4f3c90227b9c449dd7263157bb502","build_guid":"41381313bb02f78bfbe7452a93944a8d","deviceid":"6c5065f645b683e3c2045e5f81c29f4db43a9556","identity_token":"a6416055fca11cb42b28f05c1a127a8a"}
+(g)|2
+(1){"type":"analytics.appStart.v1","msg":{"previous_sessionid":8016335456062742656,"ts":1704502148633,"t_since_start":15476806}}

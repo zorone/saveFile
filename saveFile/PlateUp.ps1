@@ -4,9 +4,12 @@ ping 1.1.1.1
 
 if ($lastExitCode -eq 1) {
     echo "Please connect to internet to prevent syncing issue."
+    Write-Host -NoNewLine 'Press any key to continue...'; # https://stackoverflow.com/a/20886446
+    $prompt = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown');
 }
 
 git pull
+git lfs pull
 
 if ($lastExitCode -eq 1) {
     $dd = (Get-date).ToString("yyyyMMdd")
@@ -16,12 +19,14 @@ if ($lastExitCode -eq 1) {
 
     git stash branch $branch
     git pull --all
+    git lfs pull
     git push --all
 }
 
 start-process -filepath "C:\games\PlateUp.v1.1.8\PlateUp.exe" -WindowStyle Maximized -Wait
 
 git pull
+git lfs pull
 
 if ($lastExitCode -eq 1) {
     $dd = (Get-date).ToString("yyyyMMdd")
@@ -31,6 +36,7 @@ if ($lastExitCode -eq 1) {
 
     git stash branch $branch
     git pull --all
+    git pull lfs
 
 } else {
     $dd = (Get-date).ToString("yyyyMMdd")
@@ -44,6 +50,11 @@ if ($lastExitCode -eq 1) {
     git commit -a -m $commitText
 }
 git push --all
+if ($lastExitCode -eq 1) {
+    echo "There are some issues, please take a snapshot of this error, and sent to publisher."
+    Write-Host -NoNewLine 'Press any key to continue...'; # https://stackoverflow.com/a/20886446
+    $prompt = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown');
+}
 # SIG # Begin signature block
 # MIIFgQYJKoZIhvcNAQcCoIIFcjCCBW4CAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
 # gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR

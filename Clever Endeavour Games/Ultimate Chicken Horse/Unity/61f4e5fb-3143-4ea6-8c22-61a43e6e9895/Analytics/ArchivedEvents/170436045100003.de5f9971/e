@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cd5af1f17f82aa24f0e76a9faae9e2526104559c68c6e1fcc3bae3d579d0ccdb
-size 2576
+(s)|{"appid":"61f4e5fb-3143-4ea6-8c22-61a43e6e9895","userid":"20f269b2584e58c45a3e0f80ec878b54","sessionid":8168011407603517971,"platform":"WindowsPlayer","platformid":2,"sdk_ver":"u2020.3.28f1","sdk_rev":"f5400f52e03f","session_count":10,"localprojectid":"903b22e6852017342b07d28d926e6243","build_guid":"3b2114ede5f77ad4d9d4362422c9cc68","deviceid":"6c5065f645b683e3c2045e5f81c29f4db43a9556","identity_token":"20f269b2584e58c45a3e0f80ec878b54"}
+(g)|2
+{"type":"analytics.custom.v1","msg":{"custom_params":{"MatchGuid":"c4d4ce5a-e5e5-43c2-beb0-b14042309039","Online":false,"Level":"OLDMANSION","GameMode":"CREATIVE","NumPlayers":2,"LevelCode":"null","LobbyTag":"Fun","Twitch":true,"version":"1.10.05"},"ts":1704360451857,"t_since_start":395828490,"name":"MatchStart_Host"}}
+{"type":"analytics.custom.v1","msg":{"custom_params":{"MatchGuid":"c4d4ce5a-e5e5-43c2-beb0-b14042309039","IsPremade":true,"Ruleset":"Default","version":"1.10.05"},"ts":1704360451858,"t_since_start":395829332,"name":"MatchRules"}}
+{"type":"analytics.custom.v1","msg":{"custom_params":{"MatchGuid":"c4d4ce5a-e5e5-43c2-beb0-b14042309039","version":"1.10.05"},"ts":1704360451858,"t_since_start":395829730,"name":"MatchPoints"}}
+{"type":"analytics.custom.v1","msg":{"custom_params":{"MatchGuid":"c4d4ce5a-e5e5-43c2-beb0-b14042309039","version":"1.10.05"},"ts":1704360451858,"t_since_start":395830124,"name":"MatchBlocks"}}
+{"type":"analytics.custom.v1","msg":{"custom_params":{"MatchGuid":"c4d4ce5a-e5e5-43c2-beb0-b14042309039","ModsApplied":false,"version":"1.10.05"},"ts":1704360451859,"t_since_start":395830308,"name":"MatchModifiers"}}
+{"type":"analytics.custom.v1","msg":{"custom_params":{"MatchGuid":"c4d4ce5a-e5e5-43c2-beb0-b14042309039","Character":"RACCOON","Outfits":0,"Handicap":100,"version":"1.10.05"},"ts":1704360453013,"t_since_start":396984286,"name":"CharacterPicked"}}
+{"type":"analytics.custom.v1","msg":{"custom_params":{"MatchGuid":"c4d4ce5a-e5e5-43c2-beb0-b14042309039","Character":"SHEEP","Outfits":0,"Handicap":100,"version":"1.10.05"},"ts":1704360453013,"t_since_start":396984345,"name":"CharacterPicked"}}
+{"type":"analytics.custom.v1","msg":{"custom_params":{"MatchGuid":"c4d4ce5a-e5e5-43c2-beb0-b14042309039","LocalPlayers":2,"TreehouseGlobalCamTime":363.8748,"TreehouseLocalCamTime":0.0,"version":"1.10.05"},"ts":1704360453013,"t_since_start":396984786,"name":"MatchStart_Client"}}
+{"type":"analytics.custom.v1","msg":{"custom_params":{"Character":"SQUIRREL","TotalPlaytime":1357.828,"version":"1.10.05"},"ts":1704360501916,"t_since_start":445887335,"name":"CharacterUnlocked"}}

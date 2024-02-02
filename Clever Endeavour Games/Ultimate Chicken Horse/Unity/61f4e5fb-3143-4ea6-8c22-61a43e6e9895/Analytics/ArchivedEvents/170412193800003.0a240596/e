@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:159638fd7d2cbc728feeeb47fe4bbe82989697cdc50093e7e194fc28a2662ea3
-size 2191
+(s)|{"appid":"61f4e5fb-3143-4ea6-8c22-61a43e6e9895","userid":"20f269b2584e58c45a3e0f80ec878b54","sessionid":7928460437445742473,"platform":"WindowsPlayer","platformid":2,"sdk_ver":"u2020.3.28f1","sdk_rev":"f5400f52e03f","session_count":9,"localprojectid":"903b22e6852017342b07d28d926e6243","build_guid":"3b2114ede5f77ad4d9d4362422c9cc68","deviceid":"6c5065f645b683e3c2045e5f81c29f4db43a9556","identity_token":"20f269b2584e58c45a3e0f80ec878b54"}
+(g)|2
+{"type":"analytics.custom.v1","msg":{"custom_params":{"MatchGuid":"fe9fe05d-6686-43c8-8601-58caf93dafef","Rank":2,"Score":390,"SkillMean":22.1680918332866,"SkillStdDev":4.91935402977893,"version":"1.10.05"},"ts":1704121938378,"t_since_start":725331533,"name":"PlayerRanking"}}
+{"type":"analytics.custom.v1","msg":{"custom_params":{"MatchGuid":"fe9fe05d-6686-43c8-8601-58caf93dafef","Rank":0,"Score":190,"SkillMean":25.0,"SkillStdDev":8.333333333333334,"version":"1.10.05"},"ts":1704121938378,"t_since_start":725331588,"name":"PlayerRanking"}}
+{"type":"analytics.custom.v1","msg":{"custom_params":{"MatchGuid":"fe9fe05d-6686-43c8-8601-58caf93dafef","Rank":0,"Score":190,"SkillMean":25.0,"SkillStdDev":8.333333333333334,"version":"1.10.05"},"ts":1704121938378,"t_since_start":725331609,"name":"PlayerRanking"}}
+{"type":"analytics.custom.v1","msg":{"custom_params":{"MatchGuid":"fe9fe05d-6686-43c8-8601-58caf93dafef","PointSpread":160,"PlayersKicked":0,"PlayersQuit":0,"Duration":486.1143,"Rounds":9,"MatchComplete":true,"version":"1.10.05"},"ts":1704121938379,"t_since_start":725331779,"name":"MatchEnd_Host"}}
+{"type":"analytics.custom.v1","msg":{"custom_params":{"MatchGuid":"fe9fe05d-6686-43c8-8601-58caf93dafef","MatchGlobalCamTime":700.162,"MatchLocalCamTime":0.0,"version":"1.10.05"},"ts":1704121938379,"t_since_start":725331876,"name":"MatchEnd_Client"}}
+{"type":"analytics.custom.v1","msg":{"custom_params":{"Runtime":754.3188,"version":"1.10.05"},"ts":1704121977422,"t_since_start":764375051,"name":"GameQuit"}}
+{"type":"analytics.appRunning.v1","msg":{"duration":759,"local_time_offset":-25200000,"ts":1704121977555,"t_since_start":764507955}}
+(1){"type":"analytics.appStop.v1","msg":{"ts":1704121977555,"t_since_start":764508478}}

@@ -1,3 +1,41 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8009caef6f3df687c6d210afbd03111aae7fb5bf451b3403c4c9c64e49c7abe2
-size 1591
+Mono path[0] = 'C:/games/PlateUp.v1.1.8/PlateUp_Data/Managed'
+Mono config path = 'C:/games/PlateUp.v1.1.8/MonoBleedingEdge/etc'
+Initialize engine version: 2020.3.43f1 (75bff06b76bf)
+[Subsystems] Discovering subsystems at path C:/games/PlateUp.v1.1.8/PlateUp_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   
+    VRAM:     3977 MB
+    Driver:   31.0.15.4633
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.145 seconds
+Loading mods...
+[Steam] Connected to Steam with AppID 1599600
+Found 0 workshop mods
+Searching for mods in C:\games\PlateUp.v1.1.8\Mods
+Loaded 0 mods...
+<RI> Initializing input.
+New input system (experimental) initialized
+Using XInput
+<RI> Input initialized.
+<RI> Initialized touch support.
+Odin Serializer ArchitectureInfo initialization with defaults (all unaligned read/writes disabled).
+UnloadTime: 12.675000 ms
+Odin Serializer detected whitelisted runtime platform WindowsPlayer and memory read test succeeded; enabling all unaligned memory read/writes.
+Did not find an appid, defaulting to 1599600
+Initialising PlateUp! 1.1.8 (BBFE)
+Device info:
+    {
+    "interface": "RawInput",
+    "type": "Keyboard",
+    "product": "",
+    "serial": "",
+    "version": "",
+    "manufacturer": "",
+    "capabilities": ""
+}
+Controller assigned as: Keyboard
+Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Profile\1704118834.plateupsave
+Quitting: User request

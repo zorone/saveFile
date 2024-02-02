@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:71f2c4dfd73a08b0ccf23f28ca67ab52bc780b56a2538cc51ea0d54b3516fddd
-size 195
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DisabledModPaths />
+</ModSettings>

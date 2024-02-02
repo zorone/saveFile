@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a184ded53baab2c2b91dfff439655d2cebe5beb2193e2a4e853d0c1cc34b11c5
-size 294
+net session >nul 2>&1
+
+if ($lastExitCode -ne 0) {
+    start-process powershell -Verb RunAs
+}
+
+cd %USERPROFILE%\AppData\LocalLow
+
+git init
+git lfs install
+git remote add origin https://github.com/zorone/saveFile.git
+git reset origin/master
+git checkout -t origin/master
+git lfs pull

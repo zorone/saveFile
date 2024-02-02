@@ -1,3 +1,48 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4a6fb61d3fae6722c869650ae91943d94653161075090d43265af2fb15a8d816
-size 1185
+cd $env:USERPROFILE\AppData\LocalLow
+
+$gameFile = "Path to game executable file."
+
+ping 1.1.1.1
+
+if ($lastExitCode -eq 1) {
+    echo "Please connect to internet to prevent syncing issue."
+}
+
+git pull
+
+if ($lastExitCode -eq 1) {
+    $dd = (Get-date).ToString("yyyyMMdd")
+    $dt = (Get-date).ToString("HHmmss")
+    $text = get-Content -Path .\saveFile\version.txt
+    $branch = $text + "_" + $dd + "T" + $dt
+
+    git stash branch $branch
+    git pull --all
+    git push --all
+}
+
+start-process -filepath $gameFile -WindowStyle Maximized -Wait
+
+git pull
+
+if ($lastExitCode -eq 1) {
+    $dd = (Get-date).ToString("yyyyMMdd")
+    $dt = (Get-date).ToString("HHmmss")
+    $text = get-Content -Path .\saveFile\version.txt
+    $branch = $text + "_" + $dd + "T" + $dt
+
+    git stash branch $branch
+    git pull --all
+
+} else {
+    $dd = (Get-date).ToString("yyyyMMdd")
+    $dt = (Get-date).ToString("HHmmss")
+
+    git add ".\Clever Endeavour Games\**"
+    git add ".\It's Happening\**"
+    git add ".\Steel Crate Games\**"
+    git add ".\saveFile\**"
+    $commitText = "Updated " + $dd + " T" + $dt
+    git commit -a -m $commitText
+}
+git push --all

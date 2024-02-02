@@ -23,6 +23,7 @@ if ($lastExitCode -eq 1) {
     git push --all
 }
 
+start-process -filepath "C:\Users\ASUS\Downloads\x360ce_4.17.15\x360ce.exe" -WindowStyle Minimized
 start-process -filepath "C:\games\PlateUp.v1.1.8\PlateUp.exe" -WindowStyle Maximized -Wait
 
 git pull

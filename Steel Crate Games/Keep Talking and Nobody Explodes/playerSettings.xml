@@ -1,28 +1,3 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<PlayerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <InvertTiltControls>false</InvertTiltControls>
-  <TouchpadInvert>false</TouchpadInvert>
-  <RumbleEnabled>true</RumbleEnabled>
-  <MusicVolume>100</MusicVolume>
-  <SFXVolume>100</SFXVolume>
-  <AntiAliasing>8</AntiAliasing>
-  <VRModeRequested>true</VRModeRequested>
-  <SecondScreenMode>InteractiveManual</SecondScreenMode>
-  <VSync>1</VSync>
-  <AccessibilitySettings>
-    <AccessibilityVeto>
-      <ComponentTypeEnum>Empty</ComponentTypeEnum>
-      <ComponentTypeEnum>Empty</ComponentTypeEnum>
-      <ComponentTypeEnum>Empty</ComponentTypeEnum>
-    </AccessibilityVeto>
-    <UnlockAllMissions>false</UnlockAllMissions>
-  </AccessibilitySettings>
-  <UseModsAlways>false</UseModsAlways>
-  <SkipTitleScreen>false</SkipTitleScreen>
-  <UseParallelModLoading>false</UseParallelModLoading>
-  <LockMouseToWindow>true</LockMouseToWindow>
-  <ShowLeaderBoards>true</ShowLeaderBoards>
-  <ShowScanline>true</ShowScanline>
-  <ShowRotationUI>true</ShowRotationUI>
-  <LanguageCode>en</LanguageCode>
-</PlayerSettings>
+version https://git-lfs.github.com/spec/v1
+oid sha256:939b223ee7982cc084f7f72e82f7ae00d9fb9cc8879a6764268dd6298438e02b
+size 1157

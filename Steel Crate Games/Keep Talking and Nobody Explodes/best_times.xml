@@ -1,3 +1,71 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a59536362b45949e57be1ef09a92f5cab8d45b858b18542342d6b2b0fdc594b1
-size 2538
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dictionary>
+  <item>
+    <key>
+      <string>firsttime</string>
+    </key>
+    <value>
+      <GameRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RecordID>2</RecordID>
+        <Result>Defused</Result>
+        <Seed>1227376054</Seed>
+        <Components>
+          <ComponentTypeEnum>Timer</ComponentTypeEnum>
+          <ComponentTypeEnum>BigButton</ComponentTypeEnum>
+          <ComponentTypeEnum>Wires</ComponentTypeEnum>
+          <ComponentTypeEnum>Keypad</ComponentTypeEnum>
+        </Components>
+        <MissionID>firsttime</MissionID>
+        <ModuleSolveCount>3</ModuleSolveCount>
+        <TimeElapsed>194.942871</TimeElapsed>
+        <LeaderboardRank>1</LeaderboardRank>
+        <RealTimeElapsed>170.549377</RealTimeElapsed>
+        <Strikes>
+          <StrikeSource>
+            <ComponentType>Wires</ComponentType>
+            <InteractionType>CutWire</InteractionType>
+            <Time>32.9229431</Time>
+          </StrikeSource>
+          <StrikeSource xsi:nil="true" />
+          <StrikeSource xsi:nil="true" />
+        </Strikes>
+      </GameRecord>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>somethingoldsomethingnew</string>
+    </key>
+    <value>
+      <GameRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <RecordID>3</RecordID>
+        <Result>Defused</Result>
+        <Seed>1298880556</Seed>
+        <Components>
+          <ComponentTypeEnum>Timer</ComponentTypeEnum>
+          <ComponentTypeEnum>BigButton</ComponentTypeEnum>
+          <ComponentTypeEnum>Wires</ComponentTypeEnum>
+          <ComponentTypeEnum>Simon</ComponentTypeEnum>
+        </Components>
+        <MissionID>somethingoldsomethingnew</MissionID>
+        <ModuleSolveCount>3</ModuleSolveCount>
+        <TimeElapsed>217.819427</TimeElapsed>
+        <LeaderboardRank>1</LeaderboardRank>
+        <RealTimeElapsed>175.673126</RealTimeElapsed>
+        <Strikes>
+          <StrikeSource>
+            <ComponentType>Simon</ComponentType>
+            <InteractionType>PushButton</InteractionType>
+            <Time>59.26985</Time>
+          </StrikeSource>
+          <StrikeSource>
+            <ComponentType>Simon</ComponentType>
+            <InteractionType>PushButton</InteractionType>
+            <Time>79.47742</Time>
+          </StrikeSource>
+          <StrikeSource xsi:nil="true" />
+        </Strikes>
+      </GameRecord>
+    </value>
+  </item>
+</dictionary>

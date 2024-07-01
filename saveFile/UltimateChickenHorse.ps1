@@ -38,6 +38,7 @@ if ($lastExitCode -eq 1) {
     $commitText = "Updated " + $dd + " T" + $dt
 
     git add ".\Clever Endeavour Games\**"
+    git add ".\GrosChevaux\**"
     git add ".\It's Happening\**"
     git add ".\Steel Crate Games\**"
     git add ".\saveFile\**"

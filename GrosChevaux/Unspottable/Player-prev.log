@@ -1,0 +1,17 @@
+Mono path[0] = 'D:/shared/games/Unspottable.v2.2.10-0xdeadc0de/Unspottable_Data/Managed'
+Mono config path = 'D:/shared/games/Unspottable.v2.2.10-0xdeadc0de/MonoBleedingEdge/etc'
+Initialize engine version: 2019.4.40f1 (ffc62b691db5)
+[Subsystems] Discovering subsystems at path D:/shared/games/Unspottable.v2.2.10-0xdeadc0de/Unspottable_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   
+    VRAM:     3964 MB
+    Driver:   31.0.15.5176
+Begin MonoManager ReloadAssembly
+- Completed reload, in  5.769 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.876800 ms

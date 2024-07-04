@@ -1,4 +1,0 @@
-(s)|{"appid":"61f4e5fb-3143-4ea6-8c22-61a43e6e9895","userid":"20f269b2584e58c45a3e0f80ec878b54","sessionid":8168011407603517971,"platform":"WindowsPlayer","platformid":2,"sdk_ver":"u2020.3.28f1","sdk_rev":"f5400f52e03f","session_count":10,"localprojectid":"903b22e6852017342b07d28d926e6243","build_guid":"3b2114ede5f77ad4d9d4362422c9cc68","deviceid":"6c5065f645b683e3c2045e5f81c29f4db43a9556","identity_token":"20f269b2584e58c45a3e0f80ec878b54"}
-(g)|2
-{"type":"analytics.custom.v1","msg":{"custom_params":{"Language":"English","version":"1.10.05"},"ts":1704360084822,"t_since_start":28793652,"name":"GameStart"}}
-{"type":"analytics.appRunning.v1","msg":{"duration":303,"local_time_offset":-25200000,"ts":1704360366031,"t_since_start":310002732}}

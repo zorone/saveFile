@@ -10,7 +10,7 @@ Direct3D:
     VRAM:     3964 MB
     Driver:   31.0.15.5176
 Begin MonoManager ReloadAssembly
-- Completed reload, in  6.657 seconds
+- Completed reload, in  6.530 seconds
 Loading mods...
 [Steam] Connected to Steam with AppID 1599600
 Found 0 workshop mods
@@ -22,10 +22,23 @@ Using XInput
 <RI> Input initialized.
 <RI> Initialized touch support.
 Odin Serializer ArchitectureInfo initialization with defaults (all unaligned read/writes disabled).
-UnloadTime: 6.513900 ms
+UnloadTime: 6.620600 ms
 Odin Serializer detected whitelisted runtime platform WindowsPlayer and memory read test succeeded; enabling all unaligned memory read/writes.
 Did not find an appid, defaulting to 1599600
 Initialising PlateUp! 1.1.8 (BBFE)
+Controller detected: 
+Device info:
+    {
+    "interface": "XInput",
+    "type": "",
+    "product": "",
+    "serial": "",
+    "version": "",
+    "manufacturer": "",
+    "capabilities": "{\"userIndex\":1,\"type\":1,\"subType\":1,\"flags\":0,\"gamepad\":{\"buttons\":62463,\"leftTrigger\":255,\"rightTrigger\":255,\"leftStickX\":-1,\"leftStickY\":-64,\"rightStickX\":-64,\"rightStickY\":-64},\"vibration\":{\"leftMotor\":255,\"rightMotor\":255}}"
+}
+Controller assigned as: Xbox
+Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Profile\1704039667.plateupsave
 Controller detected: 
 Device info:
     {
@@ -39,7 +52,6 @@ Device info:
 }
 Controller assigned as: Xbox
 Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Profile\1704039667.plateupsave
-Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Profile\1704039667.plateupsave
 Ignoring invalid [UpdateAfter] attribute on Kitchen.CompletingResearchStartsFire targeting Kitchen.UpdateTakesDuration.
 This attribute can only order systems that are members of the same ComponentSystemGroup instance.
 Make sure that both systems are in the same system group with [UpdateInGroup(typeof(Unity.Entities.SimulationSystemGroup)],
@@ -48,112 +60,114 @@ Ignoring invalid [UpdateAfter(Kitchen.TableUpdatesGroup)] attribute on Kitchen.C
 Injecting 0 mods...
 [Kitchen.Transports.SteamLobbyTransport] Leaving lobby 0
 [Kitchen.Transports.SteamLobbyTransport] Creating lobby 2
-[Steam] Created lobby 109775242751361757
+[Steam] Created lobby 109775241417598087
 [Kitchen.Transports.SteamLobbyTransport] Created lobby 2
-Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1719506260.plateupsave
-Resetting identifier -1921599238
+Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1719676500.plateupsave
+Resetting identifier -1427909152
 Failed to load memory backup, loading from disc
 Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\1\1717113688.plateupsave
 Failed to load memory backup, loading from disc
-Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719507429.plateupsave
+Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719676496.plateupsave
 Failed to load memory backup, loading from disc
 Failed to load memory backup, loading from disc
 Failed to load memory backup, loading from disc
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1717112447.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Progress\1719673474.plateupsave
-Joystick disconnected (" USB Gamepad          ").
-<RI.Hid> Failed to create device file:
- 2 The system cannot find the file specified.
-<RI.Hid> Failed to create device file:
- 2 The system cannot find the file specified.
-<RI.Hid> Failed to create device file:
- 2 The system cannot find the file specified.
-<RI.Hid> Failed to create device file:
- 2 The system cannot find the file specified.
-<RI.Hid> Failed to create device file:
- 2 The system cannot find the file specified.
-Controller detected: 
-Device info:
-    {
-    "interface": "XInput",
-    "type": "",
-    "product": "",
-    "serial": "",
-    "version": "",
-    "manufacturer": "",
-    "capabilities": "{\"userIndex\":1,\"type\":1,\"subType\":1,\"flags\":12,\"gamepad\":{\"buttons\":62463,\"leftTrigger\":255,\"rightTrigger\":255,\"leftStickX\":-64,\"leftStickY\":-64,\"rightStickX\":-64,\"rightStickY\":-64},\"vibration\":{\"leftMotor\":255,\"rightMotor\":255}}"
-}
-Controller assigned as: Xbox
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1719504734.plateupsave
+Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Progress\1719811314.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1719507433.plateupsave
+Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Progress\1719811501.plateupsave
+Failed to load memory backup, loading from disc
+Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719676496.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1719507143.plateupsave
+Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Progress\1719811501.plateupsave
+Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1719811501.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719675050.plateupsave
+Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719811765.plateupsave
+Performing a full save
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719675093.plateupsave
+Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719812049.plateupsave
+Tried to access offset 1005, 1003
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719675417.plateupsave
+Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719812301.plateupsave
+Failed to load memory backup, loading from disc
+Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\1\1717113688.plateupsave
+Failed to load memory backup, loading from disc
+Failed to load memory backup, loading from disc
+Failed to load memory backup, loading from disc
+Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Progress\1719812360.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1719506260.plateupsave
+Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Progress\1719812373.plateupsave
+Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1719812373.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719675492.plateupsave
+Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719812438.plateupsave
+Performing a full save
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719675692.plateupsave
+Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719812750.plateupsave
+Tried to access offset 1007, 1007
+Tried to access offset 1008, 1004
+Tried to access offset 1003, 1005
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719675828.plateupsave
+Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719812958.plateupsave
+Failed to load memory backup, loading from disc
+Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\1\1717113688.plateupsave
+Failed to load memory backup, loading from disc
+Failed to load memory backup, loading from disc
+Failed to load memory backup, loading from disc
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1719673474.plateupsave
+Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Progress\1719813302.plateupsave
 Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Profile\1704039667.plateupsave
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1717112433.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Progress\1719673610.plateupsave
-Failed to load memory backup, loading from disc
-Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719507429.plateupsave
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1717113890.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Progress\1719673610.plateupsave
-Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1719673610.plateupsave
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719506198.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719673664.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Progress\1719673766.plateupsave
-Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1719673766.plateupsave
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719506471.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719673815.plateupsave
-Performing a full save
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719506363.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719673980.plateupsave
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719506626.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719674093.plateupsave
-Performing a full save
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719506560.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719674243.plateupsave
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719506950.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719674387.plateupsave
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1719504636.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Progress\1719674532.plateupsave
-Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1719674532.plateupsave
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719506852.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719674549.plateupsave
-Performing a full save
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719507224.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719674715.plateupsave
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719507080.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719675050.plateupsave
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1719502261.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Progress\1719675074.plateupsave
-Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1719675074.plateupsave
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719507355.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719675093.plateupsave
-Performing a full save
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719507429.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719675417.plateupsave
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719673664.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719675492.plateupsave
-Performing a full save
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719673815.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719675692.plateupsave
-Tried to access offset 995, 1002
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719673980.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719675828.plateupsave
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1719505615.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Progress\1719675926.plateupsave
-Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1719675926.plateupsave
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719674093.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719675953.plateupsave
-Performing a full save
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719674243.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719676185.plateupsave
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719674387.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719676260.plateupsave
-Performing a full save
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719674549.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719676455.plateupsave
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719674715.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719676496.plateupsave
+Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Profile\1704039667.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1719673610.plateupsave
+Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Progress\1719813329.plateupsave
+Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1719813329.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719675953.plateupsave
+Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719813362.plateupsave
 Failed to load memory backup, loading from disc
 Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\1\1717113688.plateupsave
 Failed to load memory backup, loading from disc
 Failed to load memory backup, loading from disc
 Failed to load memory backup, loading from disc
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1719504934.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Progress\1719676500.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1719673766.plateupsave
+Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Progress\1719813515.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1719674532.plateupsave
+Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Progress\1719813529.plateupsave
+Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1719813529.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719676185.plateupsave
+Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719813606.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719813606.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719813362.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719812958.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719812750.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719812438.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719812301.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719812049.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719811765.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719676496.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719676455.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\2\1719676260.plateupsave
+Failed to load memory backup, loading from disc
+Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\1\1717113688.plateupsave
+Failed to load memory backup, loading from disc
+Failed to load memory backup, loading from disc
+Failed to load memory backup, loading from disc
+Failed to load memory backup, loading from disc
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1719675074.plateupsave
+Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Progress\1719813904.plateupsave
+Performing a full save
+Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719814028.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1719675926.plateupsave
+Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Progress\1719814028.plateupsave
+Tried to access offset 1005, 998
+Tried to access offset 1004, 1000
+Tried to access offset 1003, 1000
+Tried to access offset 1003, 1000
+Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Full\2\1719815108.plateupsave
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Profile\1703777197.plateupsave
+Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Profile\1719815109.plateupsave
+Failed to load memory backup, loading from disc
+Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\1\1717113688.plateupsave
+Failed to load memory backup, loading from disc
+Failed to load memory backup, loading from disc
+Failed to load memory backup, loading from disc
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1719676500.plateupsave
+Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Progress\1719815114.plateupsave
 Quitting: User request

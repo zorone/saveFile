@@ -1,9 +1,0 @@
-(s)|{"appid":"61f4e5fb-3143-4ea6-8c22-61a43e6e9895","userid":"20f269b2584e58c45a3e0f80ec878b54","sessionid":7666323383627246194,"platform":"WindowsPlayer","platformid":2,"sdk_ver":"u2020.3.28f1","sdk_rev":"f5400f52e03f","session_count":18,"localprojectid":"903b22e6852017342b07d28d926e6243","build_guid":"afa7a7f66ede3a54e8d3de0d57fff89a","deviceid":"bebe861a156c69f95b06a1f65e20914c6207027c","identity_token":"20f269b2584e58c45a3e0f80ec878b54"}
-(g)|2
-{"type":"analytics.custom.v1","msg":{"custom_params":{"Language":"English","version":"1.11.01"},"ts":1720109092182,"t_since_start":22071651,"name":"GameStart"}}
-{"type":"analytics.custom.v1","msg":{"custom_params":{"Language":"English","version":"1.11.01"},"ts":1720109103207,"t_since_start":33096133,"name":"GameStart"}}
-{"type":"analytics.custom.v1","msg":{"custom_params":{"LobbyGuid":"00000000-0000-0000-0000-000000000000","MatchesPlayed":0,"TimeWaited":10.13014,"PlayerWasKicked":false,"version":"1.11.01"},"ts":1720109124055,"t_since_start":53944093,"name":"PlayerLeftTreehouse"}}
-{"type":"analytics.custom.v1","msg":{"custom_params":{"Language":"English","version":"1.11.01"},"ts":1720109125948,"t_since_start":55836939,"name":"GameStart"}}
-{"type":"analytics.custom.v1","msg":{"custom_params":{"Runtime":80.23158,"version":"1.11.01"},"ts":1720109153294,"t_since_start":83182948,"name":"GameQuit"}}
-{"type":"analytics.appRunning.v1","msg":{"duration":82,"local_time_offset":-25200000,"ts":1720109153427,"t_since_start":83316393}}
-(1){"type":"analytics.appStop.v1","msg":{"ts":1720109153428,"t_since_start":83316855}}

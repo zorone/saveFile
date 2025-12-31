@@ -1,0 +1,6 @@
+(s)|{"appid":"61f4e5fb-3143-4ea6-8c22-61a43e6e9895","userid":"20f269b2584e58c45a3e0f80ec878b54","sessionid":3985304528400508968,"platform":"WindowsPlayer","platformid":2,"sdk_ver":"u2020.3.28f1","sdk_rev":"f5400f52e03f","session_count":21,"localprojectid":"903b22e6852017342b07d28d926e6243","build_guid":"afa7a7f66ede3a54e8d3de0d57fff89a","deviceid":"cc02b9337baf7f2a318c7a21183c148768af5039","identity_token":"20f269b2584e58c45a3e0f80ec878b54"}
+(g)|2
+{"type":"analytics.custom.v1","msg":{"custom_params":{"Language":"English","version":"1.11.01"},"ts":1749646364196,"t_since_start":102856013,"name":"GameStart"}}
+{"type":"analytics.custom.v1","msg":{"custom_params":{"Runtime":19.18657,"version":"1.11.01"},"ts":1749646375331,"t_since_start":113990411,"name":"GameQuit"}}
+{"type":"analytics.appRunning.v1","msg":{"duration":79,"local_time_offset":-25200000,"ts":1749646375567,"t_since_start":114226955}}
+(1){"type":"analytics.appStop.v1","msg":{"ts":1749646375568,"t_since_start":114227395}}

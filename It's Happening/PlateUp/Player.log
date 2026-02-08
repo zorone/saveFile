@@ -10,7 +10,7 @@ Direct3D:
     VRAM:     3962 MB
     Driver:   32.0.15.9174
 Begin MonoManager ReloadAssembly
-- Completed reload, in  8.144 seconds
+- Completed reload, in  0.310 seconds
 Loading mods...
 [Steam] Connected to Steam with AppID 1599600
 Found 0 workshop mods
@@ -22,10 +22,19 @@ Using XInput
 <RI> Input initialized.
 <RI> Initialized touch support.
 Odin Serializer ArchitectureInfo initialization with defaults (all unaligned read/writes disabled).
-UnloadTime: 5.964300 ms
+UnloadTime: 1.061700 ms
 Odin Serializer detected whitelisted runtime platform WindowsPlayer and memory read test succeeded; enabling all unaligned memory read/writes.
 Did not find an appid, defaulting to 1599600
 Initialising PlateUp! 1.1.8 (BBFE)
+Joystick disconnected ("Generic   USB  Joystick  ").
+<RI.Hid> Failed to create device file:
+ 2 The system cannot find the file specified.
+<RI.Hid> Failed to create device file:
+ 2 The system cannot find the file specified.
+<RI.Hid> Failed to create device file:
+ 2 The system cannot find the file specified.
+<RI.Hid> Failed to create device file:
+ 2 The system cannot find the file specified.
 Controller detected: 
 Device info:
     {
@@ -40,6 +49,8 @@ Device info:
 Controller assigned as: Xbox
 Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Profile\1720537170.plateupsave
 Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Profile\1720537170.plateupsave
+<RI.Hid> Failed to create device file:
+ 2 The system cannot find the file specified.
 Ignoring invalid [UpdateAfter] attribute on Kitchen.CompletingResearchStartsFire targeting Kitchen.UpdateTakesDuration.
 This attribute can only order systems that are members of the same ComponentSystemGroup instance.
 Make sure that both systems are in the same system group with [UpdateInGroup(typeof(Unity.Entities.SimulationSystemGroup)],
@@ -48,10 +59,10 @@ Ignoring invalid [UpdateAfter(Kitchen.TableUpdatesGroup)] attribute on Kitchen.C
 Injecting 0 mods...
 [Kitchen.Transports.SteamLobbyTransport] Leaving lobby 0
 [Kitchen.Transports.SteamLobbyTransport] Creating lobby 2
-[Steam] Created lobby 109775242218482845
+[Steam] Created lobby 109775241852260960
 [Kitchen.Transports.SteamLobbyTransport] Created lobby 2
-Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1767195747.plateupsave
-Resetting identifier -544545067
+Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1770565522.plateupsave
+Resetting identifier -922628644
 Failed to load memory backup, loading from disc
 Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\1\1717113688.plateupsave
 Failed to load memory backup, loading from disc
@@ -60,12 +71,8 @@ Failed to load memory backup, loading from disc
 Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Full\3\1720539700.plateupsave
 Failed to load memory backup, loading from disc
 Failed to load memory backup, loading from disc
-Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1720537465.plateupsave
-Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Progress\1770565522.plateupsave
-Deserialising from C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Profile\1720537170.plateupsave
-Joystick disconnected ("Generic   USB  Joystick  ").
-<RI.Hid> Failed to create device file:
- 2 The system cannot find the file specified.
+Deleting C:\Users\ASUS\AppData\LocalLow\It's Happening\PlateUp\Progress\1720537926.plateupsave
+Serialising to C:/Users/ASUS/AppData/LocalLow/It's Happening/PlateUp\Progress\1770565915.plateupsave
 <RI.Hid> Failed to create device file:
  2 The system cannot find the file specified.
 <RI.Hid> Failed to create device file:
